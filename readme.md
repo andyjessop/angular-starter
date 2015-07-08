@@ -1,6 +1,6 @@
 # Angular Starter
 
-This is a starter app based on Todd Motto's styleguide. It uses:
+This is a starter app based on [Todd Motto's styleguide](https://github.com/toddmotto/angularjs-styleguide). It uses:
 
 * IIFE scoping
 * Functions passed into module methods rather than assigned as callback
