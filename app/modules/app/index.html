@@ -1,0 +1,14 @@
+<header>
+    <nav>
+        <ul>
+            <li><a ui-sref="app.view1">View 1</a></li>
+            <li><a ui-sref="app.view2">View 2</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div ui-view></div>
+</main>
+
+<footer>&copy; {{ vm.settings.app.name}} v{{ vm.settings.app.version }}, {{ vm.date | date:'yyyy' }}</footer>
