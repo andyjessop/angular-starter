@@ -7,6 +7,8 @@ This is a starter app based on [Todd Motto's styleguide](https://github.com/todd
 * `controllerAs` syntax
 * One-time binding syntax
 
+Contributions and/or suggestions are most welcome.
+
 ## Installation
 
     // Bower components
