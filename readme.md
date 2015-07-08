@@ -24,6 +24,30 @@ There are lots of todos here. It is meant to be a working project with many comm
 patterns implemented as modules, such as authentication/authorization, API communication,
 socket.io integration, and more.
 
+## File structure
+
+    app --> all files required to run app
+        css --> css assets
+        img --> img
+        modules --> all functionality is a module
+            app --> main app module. Instantiates app, loads modules, and handles routing
+                app.controller.js --> app controller logic
+                app.module.js --> app module declaration
+                app.router.js --> all app routing
+                index.html --> 
+            view1
+                view1.controller.js --> view1 controller logic
+                view1.module.js --> view1 module declaration
+                index.html --> view1 html
+            view2
+                view2.controller.js --> view2 controller logic
+                view2.module.js --> view2 module declaration
+                index.html --> view2 html
+        index.html --> main entry point
+    bower.json
+    .bowerrc
+    readme.md
+
 ## IIFE scoping
 
     (function() {
