@@ -70,11 +70,31 @@ socket.io integration, and more.
 
 ## controllerAs syntax and one-time binding syntax
 
+    <!-- In the template -->
     <div ng-controller="View1Controller as vm">
 
         <h1>{{ ::vm.title }}</h1>
 
     </div>
+
+    // In the controller
+    (function() {
+
+        'use strict';
+
+        angular
+            .module('app.view1')
+            .controller('View1Controller', View1Controller);
+
+            function View1Controller() {
+
+                var vm = this;
+
+                vm.title = "View 1";
+
+            }
+
+    })();
 
 ## Functions passed into modules
 
