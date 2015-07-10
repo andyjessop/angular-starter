@@ -70,14 +70,16 @@ socket.io integration, and more.
 
 ## controllerAs syntax and one-time binding syntax
 
-    <!-- In the template -->
+In the template:
+
     <div ng-controller="View1Controller as vm">
 
         <h1>{{ ::vm.title }}</h1>
 
     </div>
 
-    // In the controller
+In the controller:
+
     (function() {
 
         'use strict';
