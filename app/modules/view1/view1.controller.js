@@ -6,13 +6,12 @@
 		.module('app.view1')
 		.controller('View1Controller', View1Controller);
 
-		View1Controller.$inject = ['$scope'];
+		function View1Controller() {
 
-		function View1Controller($scope) {
+			var vm = this;
 
-            this.title = "View 1";
+            vm.title = "View 1";
 
 		}
-
 
 })();

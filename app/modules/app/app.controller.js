@@ -6,21 +6,20 @@
 		.module('app')
 		.controller('AppController', AppController);
 
-		AppController.$inject = ['$scope'];
+		function AppController() {
 
-		function AppController($scope) {
+			var vm = this;
 
 			// Get current date for footer
-			this.date = new Date();
+			vm.date = new Date();
 
-			this.settings = {
+			vm.settings = {
 				"app": {
-                    "name": "Angular Starter",
-                    "version": "0.1"
-                }
+					"name": "Angular Starter",
+					"version": "0.1"
+				}
 			};
 
 		}
-
 
 })();
