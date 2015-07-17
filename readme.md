@@ -27,6 +27,10 @@ The package.json is set up so that this will also run `bower install`.
 
     npm start
 
+and navigate to:
+
+    http://localhost:8000
+
 ## Todos
 
 There are lots of todos here. It is meant to be a working project with many common
