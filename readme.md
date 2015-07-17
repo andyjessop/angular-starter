@@ -12,11 +12,20 @@ Contributions and/or suggestions are most welcome.
 
 ## Installation
 
-    // Bower components
-    $ bower install --save angular
-    $ bower install --save angular-ui-router
-    $ bower install --save angular-cookies
-    $ bower install --save html5-boilerplate
+Clone the repository with git:
+
+    git clone https://github.com/andyjessop/angular-starter.git angular-starter
+    cd angular starter
+
+Install the dependencies:
+
+    npm install
+
+The package.json is set up so that this will also run `bower install`.
+
+## Start the application
+
+    npm start
 
 ## Todos
 
@@ -34,7 +43,7 @@ socket.io integration, and more.
                 app.controller.js --> app controller logic
                 app.module.js --> app module declaration
                 app.router.js --> all app routing
-                index.html --> 
+                index.html -->
             view1
                 view1.controller.js --> view1 controller logic
                 view1.module.js --> view1 module declaration
