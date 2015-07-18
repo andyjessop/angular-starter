@@ -29,7 +29,7 @@ The package.json is set up so that this will also run `bower install`.
 
 and navigate to:
 
-    http://localhost:8000
+    http://localhost:8000/app
 
 ## Todos
 
