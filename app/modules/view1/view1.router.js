@@ -10,7 +10,7 @@
 
                 .state('app.view1', {
 
-                    url: '',
+                    url: '/view1',
                     templateUrl: 'modules/view1/index.html',
                     controller: 'View1Controller'
 
