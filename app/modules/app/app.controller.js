@@ -1,25 +1,25 @@
-(function() {
+(function () {
 
-	'use strict';
+    'use strict';
 
-	angular
-		.module('app')
-		.controller('AppController', AppController);
+    angular
+        .module('app')
+        .controller('AppController', AppController);
 
-		function AppController() {
+    function AppController() {
 
-			var vm = this;
+        var vm = this;
 
-			// Get current date for footer
-			vm.date = new Date();
+        // Get current date for footer
+        vm.date = new Date();
 
-			vm.settings = {
-				"app": {
-					"name": "Angular Starter",
-					"version": "0.1"
-				}
-			};
+        vm.settings = {
+            "app": {
+                "name": "Angular Starter",
+                "version": "0.1"
+            }
+        };
 
-		}
+    }
 
 })();

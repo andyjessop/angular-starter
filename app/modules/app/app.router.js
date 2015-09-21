@@ -1,21 +1,21 @@
-(function() {
+(function () {
 
-	'use strict';
+    'use strict';
 
-	angular
-		.module('app')
-		.config(['$stateProvider', function ($stateProvider) {
+    angular
+        .module('app')
+        .config(['$stateProvider', function ($stateProvider) {
 
-			$stateProvider
+            $stateProvider
 
-				.state('app', {
+                .state('app', {
 
-					abstract: true,
-					url: '',
-					templateUrl: 'modules/app/index.html'
+                    abstract: true,
+                    url: '',
+                    templateUrl: 'modules/app/index.html'
 
-				});
+                });
 
-		}]);
+        }]);
 
 })();

@@ -1,8 +1,8 @@
-(function() {
+(function () {
 
-	'use strict';
+    'use strict';
 
-	angular
-		.module('app.view2', []);
+    angular
+        .module('app.view2', []);
 
 })();

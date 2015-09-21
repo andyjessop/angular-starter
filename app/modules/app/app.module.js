@@ -1,17 +1,17 @@
-(function() {
+(function () {
 
-	'use strict';
+    'use strict';
 
-	angular
-		.module('app', [
+    angular
+        .module('app', [
 
-			/* Contrib modules */
-			'ui.router',
+            /* Contrib modules */
+            'ui.router',
 
-			/* Custom modules */
-			'app.view1',
+            /* Custom modules */
+            'app.view1',
             'app.view2'
 
-		]);
+        ]);
 
 })();
